@@ -45,7 +45,7 @@ public class TransactionValidatingService {
             try {
                 result = future.get();
             } catch (InterruptedException | ExecutionException e) {
-                System.out.println("Not able to operate security check.");
+                System.out.println("Not able to operate security check due to connection error.");
                 result = false;
             }
         }
