@@ -2,7 +2,6 @@ package practice.service;
 
 public class SecurityInfoService {
 
-
     public boolean checkTxnValid(String txnId) throws InterruptedException {
         System.out.println("ThreadId: " + Thread.currentThread().getId());
         Thread.sleep(2000);
