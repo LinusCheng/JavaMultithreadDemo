@@ -1,5 +1,6 @@
 package practice.service;
 
+//Mocking external services
 public class SecurityInfoService {
 
     public boolean checkTxnValid(String txnId) throws InterruptedException {
